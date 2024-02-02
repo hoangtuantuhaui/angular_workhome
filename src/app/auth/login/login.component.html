@@ -1,0 +1,31 @@
+<h1 class="text-center">Login</h1>
+<div class="container">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="form-field">
+            <label for="username">User Name:</label>
+            <input formControlName="email" type="text" id="username" name="username">
+        </div>
+        <div class="form-field">
+            <label for="psw">Password:</label>
+            <input formControlName="password" type="password" id="psw" name="psw">
+        </div>
+        <div class="action">
+            <button class="" type="submit">Login</button>
+        </div>
+    </form>
+</div>
+<!-- <div>
+    <h1>Hi Welcome Back</h1>
+     <h3>Login Here</h3>
+      <form  [formGroup]="loginForm" (ngSubmit)="login()">
+        <div>
+          <label for="email">Email</label>
+          <input formControlName="email"  required  type="email">
+          <label for="password">Password</label>
+          <input formControlName="password"  type="password">
+        </div>
+        <button>Submit</button>
+        <span>Don't have an account? 
+        <a routerLink="/signUp">signUp</a></span>
+      </form>
+  </div> -->

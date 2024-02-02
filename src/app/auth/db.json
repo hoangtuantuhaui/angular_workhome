@@ -1,0 +1,44 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "tuht",
+      "email": "tuht",
+      "phone": "123456789",
+      "password": "1",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "tuht1",
+      "email": "tuht1",
+      "phone": "123456789",
+      "password": "1",
+      "role": "customer"
+    },
+    {
+      "id": 3,
+      "name": "tuht2",
+      "email": "tuht2",
+      "phone": "123456789",
+      "password": "1",
+      "role": "customer"
+    },
+    {
+      "name": "dev",
+      "email": "developer09022022@gmail.com",
+      "phone": "123456789",
+      "password": "Admin$123",
+      "role": "customer",
+      "id": 4
+    },
+    {
+      "name": "dev dev",
+      "email": "teamtester2021@gmail.com",
+      "phone": "123456789",
+      "password": "1",
+      "role": "customer",
+      "id": 5
+    }
+  ]
+}

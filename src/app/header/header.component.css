@@ -1,0 +1,25 @@
+.header {
+    padding: 30px 20px;
+    background: #000;
+}
+
+.header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.header ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}

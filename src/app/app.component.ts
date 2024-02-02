@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  formData: any[] = [];
+  getDataFromSubmit(data : any[]){
+    this.formData = [...this.formData||[], data]
+    // this.formData.push(data)
+  }
 }
