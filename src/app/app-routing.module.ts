@@ -9,6 +9,7 @@ import { BlogDetailComponent } from './blog/blog-detail/blog-detail.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
+import { BookListComponent } from './books/book-list/book-list.component';
 
 const routes: Routes = [
     {path: '', component: HomepageComponent },
@@ -16,15 +17,7 @@ const routes: Routes = [
     { path: 'blog-detail', component: BlogDetailComponent },
     { path: 'login', component: LoginComponent },
     { path: 'register', component: RegisterComponent },
-  // { path: "", redirectTo: "/home", pathMatch: "full" },
-  // {
-  //   path: "home",
-  //   component: AppComponent,
-  //   children: [
-  //     { path: "list", component: FormDetailComponent },
-  //     { path: "create", component: FormExampleComponent }
-  //   ]
-  // }
+    { path: 'book-list', component: BookListComponent },  
 ];
 console.log(routes);
 @NgModule({

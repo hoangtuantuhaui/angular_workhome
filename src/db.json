@@ -1,0 +1,110 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "tuht",
+      "email": "tuht",
+      "phone": "123456789",
+      "password": "1",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "tuht1",
+      "email": "tuht1",
+      "phone": "123456789",
+      "password": "1",
+      "role": "customer"
+    },
+    {
+      "id": 3,
+      "name": "tuht2",
+      "email": "tuht2",
+      "phone": "123456789",
+      "password": "1",
+      "role": "customer"
+    },
+    {
+      "name": "dev",
+      "email": "developer09022022@gmail.com",
+      "phone": "123456789",
+      "password": "Admin$123",
+      "role": "customer",
+      "id": 4
+    },
+    {
+      "name": "dev dev",
+      "email": "teamtester2021@gmail.com",
+      "phone": "123456789",
+      "password": "1",
+      "role": "customer",
+      "id": 5
+    },
+    {
+      "name": "test",
+      "email": "teamtester2021@gmail.com",
+      "phone": "123456789",
+      "password": "1",
+      "role": "customer",
+      "id": 6
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "T22132123",
+      "author": "F. Scott Fitzgerald231",
+      "price": 15.99123,
+      "quantity": 50134,
+      "description": "A classic novel about the American Dream.",
+      "category": [
+        "Fiction",
+        "Classic"
+      ],
+      "year": 1925,
+      "image": "https://www.w3schools.com/html/pic_trulli.jpg"
+    },
+    {
+      "id": "2",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 12,
+      "quantity": 50123,
+      "description": "A classic novel about the American Dream.",
+      "category": [
+        "Fiction",
+        "Classic"
+      ],
+      "year": 1925,
+      "image": "https://www.w3schools.com/html/pic_trulli.jpg"
+    },
+    {
+      "id": "3",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 18,
+      "quantity": 5022,
+      "description": "A classic novel about the American Dream.",
+      "category": [
+        "Fiction",
+        "Classic"
+      ],
+      "year": 1925,
+      "image": "https://www.w3schools.com/html/pic_trulli.jpg"
+    },
+    {
+      "id": "4",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 15.99,
+      "quantity": 50,
+      "description": "A classic novel about the American Dream.",
+      "category": [
+        "Fiction",
+        "Classic"
+      ],
+      "year": 1925,
+      "image": "https://www.w3schools.com/html/pic_trulli.jpg"
+    }
+  ]
+}
