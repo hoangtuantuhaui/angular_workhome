@@ -1,0 +1,14 @@
+<!-- <div>
+    <div><img src="{{hero.photo}}" alt=""></div>
+    <div>{{hero.title}}</div>
+    <div>{{hero.shortdes}}</div>
+</div> -->
+
+<div>
+    <ul>
+        <li *ngFor="let hero of heroes">
+            <div>{{hero.title}}</div>
+            <div>{{hero.shortdes}}</div>
+        </li>
+    </ul>
+</div>
